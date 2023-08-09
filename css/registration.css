@@ -1,0 +1,18 @@
+/* Center the form vertically and horizontally */
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Style the form */
+form {
+    background-color: #e0dada;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dddddd; /* Add grey border */
+}
