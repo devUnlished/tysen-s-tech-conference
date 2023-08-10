@@ -43,7 +43,7 @@ body{
     display: flex;
     align-items: center; /* Vertically align items */
     justify-content: space-between; /* Distribute items along the main axis */
-    background-color: rgb(189, 178, 178);
+    background-color: rgb(13, 109, 114);
     box-shadow:  0 5px 15px rgb(193, 173, 173);
     padding: 20px;
     z-index: 999;
@@ -164,5 +164,89 @@ body{
   padding: 20px; /* Add padding for better spacing */
   margin-left: 30px;
 }
+.center-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/* Style the form */
+form {
+  background-color: rgb(13, 109, 114);
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dddddd; /* Add grey border */
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.vn{
+  background-image: url(/images/venue.jpg);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Style the paragraph text within the footer */
+.footer p {
+  margin: 0;
+}
+
+/* Add some spacing between the footer text and the edges of the container */
+.footer p {
+  padding: 10px;
+}
+
+
+
+
 
 
